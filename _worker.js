@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '5f751c6e-50b1-4797-ba8e-6ffe324a0bce';
 
-const proxyIPs = ['16.162.152.191','16.162.10.198','18.167.208.181','18.162.40.255','43.198.154.18','43.198.53.11'];
+const proxyIPs = ['172.104.67.140'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
